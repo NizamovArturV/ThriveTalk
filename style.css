@@ -1,39 +1,54 @@
 body {
     width: 1440px;
-    height: 5969px;
+    height: 840px;
     font-family: Larsseit;
     background-color: #F4F9E2;
     margin-left: 179px;
     font-weight: 700;
 }
-.navigation {
+header {
     display: flex;
-    flex-direction: row; 
+    flex-direction: baseline; 
 }
+
 .company-name-header {
     font-size: 24px;
-    color: #62D0DF;
     width: 484px;
     height: 27px;
     margin-top: 27px;
 }
 
-.navigation-element {
-    padding: 20px;
-    color: #22356F;
-    font-size: 14px;
-    margin-top: 11px;
+.company-name-header a{
+    text-decoration: none;
+    color: #62D0DF;
 }
 
+.navigation ul{
+    display: flex;
+    flex-direction: baseline;
+    list-style: none;
+}
+
+.navigation-element {
+    padding: 20px;
+    font-size: 14px;
+}
+.navigation-element a {
+    text-decoration: none;
+    color: #22356F;
+}
 .contact-button {
-    color: #FFFFFF;
     font-size: 14px;
     background-color: #62D0DF;
     margin-left: 319px;
     border-radius: 50px;
     padding: 20px 30px;
     text-transform: uppercase;
-    margin-top: 10px;
+}
+
+.contact-button a {
+    text-decoration: none;
+    color: #FFFFFF;
 }
 
 .company-name {
@@ -44,7 +59,7 @@ body {
     height: 64px;
 }
 
-.article-heading {
+.container-heading {
     color: #22356F;
     font-size: 48px;
     width: 484px;
@@ -53,7 +68,7 @@ body {
     line-height: 53px;
 }
 
-.article-text {
+.container-text {
     font-size: 24px;
     color: #22356F;
     width: 469px;
@@ -71,13 +86,21 @@ body {
 }
 
 .who-button {
-    color: #FFFFFF;
     font-size: 16px;
     background: #F9B640;
     padding: 10px 30px;
 }
 
+.who-button a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
 .what-button {
-    color: #FAB63E;
     margin-left: 38px;
+}
+
+.what-button a {
+    color: #FAB63E;
+    text-decoration: none;
 }
